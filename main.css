@@ -19,19 +19,20 @@ body, input, textarea {
 
 header {
     padding: 16px 0;
-    background-color: rgb(194, 173, 229);
-    color: black;
+    background-color: rgb(1, 51, 14);
+    color: rgb(255, 255, 255);
     border-radius: 100px;
+    margin: 30px;
 }
 
 header nav li {
     display: inline;
     margin-left: 16px;
-    font-size: 18px;
+    font-size: 23px;
 }
 
 header nav li a{
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -50,7 +51,7 @@ section .conteiner {
 }
 
 .brands-list img {
-    height: 24px;
+    height: 80px;
 }
 
 .brands-list li {
@@ -64,7 +65,7 @@ section .conteiner {
 
 section {
     padding: 24px 0;
-    color: rgb(46, 12, 87);
+    color: rgb(1, 51, 14);
 }
 
 section h2 {
@@ -78,9 +79,6 @@ section p {
 .star-front {
     margin-right: 32px;
     
-}
-.contatu{
-    margin-right: 710px;
 }
 
 .social-links img {
@@ -99,11 +97,12 @@ section p {
 
 #contact .conteiner{
     display: block;
+    margin: 80px;
 }
 
 .contact-metods{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 
 form input,
@@ -125,24 +124,24 @@ section h3{
 }
 
 form button{
-    background-color: rgb(194, 173, 229);
-    color: black;
+    background-color: rgb(1, 51, 14);
+    color: rgb(255, 255, 255);
     border: none;
     cursor: pointer;
     border-radius: 10px;
 }
 
 form button:hover {
-    background-color: rgb(194, 173, 229);
+    background-color: rgb(1, 27, 7);
 }
 
 input:focus, textarea:focus {
-    outline-color: rgb(194, 173, 229);
+    outline-color: rgb(1, 51, 14);
 }
 
 footer{
-    background-color: rgb(194, 173, 229);
-    color: black;
+    background-color: rgb(1, 51, 14);
+    color: rgb(255, 255, 255);
     padding: 16px;
     text-align: center;
     border-radius: 100px;
